@@ -11,9 +11,11 @@ function getNearbyPlayers()
     local playerCoords = GetEntityCoords(ped)
     for _, player in pairs(GetActivePlayers()) do
         local playerPed = GetPlayerPed(player)
-        local isCrouching = GetPedCrouchMovement(player)
-        local isCover = IsPedInCover(player)
-        local ragdoll = IsPedRagdoll(player)
+
+        local isCrouching = GetPedCrouchMovement(playerPed)
+        local isCover = IsPedInCover(playerPed)
+        local ragdoll = IsPedRagdoll(playerPed)
+
         if isCrouching == 0 and not isCover and not ragdoll then
             local pedCoord = GetEntityCoords(playerPed)
             local distance = #(pedCoord - playerCoords)
