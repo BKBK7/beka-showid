@@ -3,6 +3,7 @@
 
 - Choose between Name, Steam ID, License, with Server ID.
 - Adjust color, scale, and font style.
+- Standalone
 
 # Pictures
 ![show_id_name](https://github.com/user-attachments/assets/481f8f3e-ce07-4e49-bd10-d0db9dcf7415)
