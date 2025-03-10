@@ -1,5 +1,5 @@
 author 'beka'
-version '1.0'
+version '1.2.0'
 description 'showid'
 
 fx_version "adamant"
