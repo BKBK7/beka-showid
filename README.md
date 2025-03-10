@@ -3,6 +3,7 @@
 
 - Choose between Name, Steam ID, License, with Server ID.
 - Adjust color, scale, and font style.
+- Hides ID and info when **crouching, in cover, or ragdolling**
 - Standalone
 - /showid or PageUP  (optional)
 
